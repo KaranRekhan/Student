@@ -42,5 +42,7 @@ class Main{
 
         System.out.println("Enter Branch :  ");
         String branch = scan.nextLine();
+
+        Student student = new Student(name,prn,gpa,batch,branch);
     }
 }
